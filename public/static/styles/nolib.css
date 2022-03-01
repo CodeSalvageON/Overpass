@@ -1,4 +1,18 @@
+body {
+  background-color: darkgray;
+}
+
 #problems {
   width: 500px;
-  height: 500px;
+  height: 300px;
+}
+
+#github {
+  color: white;
+  width: 130px;
+  background-color: black;
+}
+
+#github:hover {
+  cursor: pointer;
 }

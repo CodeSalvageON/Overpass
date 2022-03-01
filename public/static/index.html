@@ -8,7 +8,7 @@
     <link href="/static/styles/nolib.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <div class="window absolute-center" id="problems">
+    <div class="window absolute-center add-scroll" id="problems">
       <div class="title-bar">
         <div class="title-bar-text">
           i-Ready Overpass
@@ -19,6 +19,16 @@
           <button aria-label="Close"></button>
         </div>
       </div>
+      <p class="text-input" id="github" class="zoom">Github Repo/Source Code</p>
+      <form id="quiz-problem">
+        <p>Quiz Problem: <input class="text-input" type="text" id="myproblem"><button class="text-input">Solve</button></p>
+      </form>
+      <br/>
+      <hr/>
+      <p id="prev"></p>
+      <p id="answer-chance"></p>
+      <hr/>
+      <p id="answer-links"></p>
     </div>
     
     <script src="/warp/driver.js"></script>
