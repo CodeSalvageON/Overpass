@@ -4,6 +4,7 @@ Had to fix cupiditys quiz problems
 https://vault0.netlify.app is the website this code is working on, by the way.
 
 ## How to Use
+* Go to the website above
 * Get the question from your diagnostic (ie. Which table represents a function?)
 * Type the question into the box next to "Question"
 * Press the button next to the input box or press the ENTER/RETURN key.
