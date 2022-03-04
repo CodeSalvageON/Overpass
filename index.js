@@ -7,7 +7,6 @@ let http = require('http').Server(app);
 let bodyParser = require('body-parser');
 
 let port = process.env.PORT || 3000;
-let io = require('socket.io')(http);
 
 app.use(bodyParser.json());
 app.use(express.static('public'));

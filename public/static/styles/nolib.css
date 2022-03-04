@@ -13,6 +13,11 @@ body {
   background-color: black;
 }
 
-#github:hover {
+#imperium {
+  width: 130px;
+  background-color: #d3e89c;
+}
+
+#github:hover, #imperium:hover {
   cursor: pointer;
 }

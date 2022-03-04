@@ -3,7 +3,12 @@ const quizproblem = document.getElementById("quiz-problem");
 const myproblem = document.getElementById("myproblem");
 const prev = document.getElementById("prev");
 const answer_chance = document.getElementById("answer-chance");
-const answer_links = document.getElementById("answer-links")
+const answer_links = document.getElementById("answer-links");
+const imperium = document.getElementById("imperium");
+
+imperium.onclick = function () {
+  window.open("https://theoutlet.netlify.app/");
+}
 
 github.onclick = function () {
   window.open("https://github.com/CodeSalvageON/Overpass");
